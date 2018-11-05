@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" href="../../cusSys/css/reset.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<style>
+    /** 覆蓋brightocve hidden & 位置  #079bb3 #3b3b3b  #3c3c3c **/
+    .bc-player-r19XG5vhx_default .vjs-big-play-button, .vjs-control-bar, .vjs-loading-spinner{
+        display: none !important;
+    }  
+    .vjs-tech {
+        height: auto !important;
+        top: 40px !important;
+    }
+    .vjs-poster{
+        background-position: bottom;
+    }
+    
+    body{height: 100%;font-family: -webkit-body;}
+    p{margin: 0;}
+    .clearFlot{
+        clear: both;
+    }
+    
+    .canTclickvideo{position: absolute;top: 60px;z-index: 99;width: 100%;height: 388px;}
+    .videoOutside{margin-top: 20px;}
+    .Nav{position: absolute;top: 0;height: 60px;color: white;background-color: #3b3b3b;width: 100%;}
+    
+    .b-description{
+        padding: 30px 0;
+        color: #4F4F4F;
+        width: 87%;
+        margin: 0 auto;
+        line-height: 36px;
+        margin-bottom: 60px;
+    }
+    
+    .LogoTitle{width: 36%;padding: 5% 8%;border-right-style: solid;border-right-color: #B5B5B5;line-height: 50px;border-right-width: 1px;float: left;color: #4F4F4F;}
+    .LogoArea{padding: 20px 0;line-height: 110px;}
+    .cusLogo{width: 10%;height: 100%;margin-left: 50px;}
+    
+    footer{
+        background-color: #3c3c3c;
+        padding: 40px 0 10px 0;
+        color: white;
+        font-size: 14px;
+        position: relative;
+    }
+    .flower{
+        background: url('../CustomerLogo/f.png') no-repeat;
+        background-size: 130px auto;
+        width:130px;
+        height: 130px;
+        position: absolute;
+        top:9%;
+        left:1%;
+        opacity: .5;
+    }
+    .comLogo{
+        background: url('../../cusSys/pic/logoTr.png') no-repeat;
+        background-size: 120px auto;
+        width: 120px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    .bottom-color_line{
+        width: 100%;
+        height: .5px;
+        background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+        margin:20px 0 10px ;
+    }
+</style>
+</head>
+<body>
+ 
+<!---覆蓋video 表面 讓無法點  height rwd 要改--->     
+<div class="canTclickvideo"></div>
+     
+<div class="videoOutside">
+    <video data-video-id="5794515425001" 
+    data-account="4005328949001" 
+    data-player="r19XG5vhx" 
+    data-embed="default" 
+    data-application-id 
+    class="video-js" 
+    controls muted autoplay
+    width="100%"
+    height="420px">
+    </video>
+    <script src="//players.brightcove.net/4005328949001/r19XG5vhx_default/index.min.js"></script>
+    
+    <div class="Nav">
+        <div></div>
+    </div>
+
+</div>
+
+<h5 align="center" class="b-description">我們是Brightcove在台灣的代理商,主要處理雲端影片相關事宜(Brightcove 服務提供OTT, Live直播錄影剪切, Vod, 影片安全與轉檔, 上傳, 頁面內嵌碼, 發佈至社群網站, 影片市場統計分析, 適用於手機、網站、平板APP)...</h5>
+  
+  
+<div style="margin: 0 5%;" align="center">
+    <img src="../CustomerLogo/B_videoCloud.png" style="width: 28%;" alt="videoCloud">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="" alt="">
+    </div>
+
+</div>
+     
+<div class="clearFlot"></div>  
+      
+<div style="margin: 80px 0;">
+    <h3 class="LogoTitle">提供穩定的系統,更好的服務,使用我們平台的客戶</h3>
+    <div class="LogoArea">
+        <img src="../CustomerLogo/TVBS-Logo.png" alt="TVBS" class="cusLogo">
+        <img src="../CustomerLogo/SET-logo.jpg" alt="SET" class="cusLogo">
+        <img src="../CustomerLogo/vidol_fb_kv.png" alt="Vidol" class="cusLogo">
+        <img src="../CustomerLogo/BLTVB.png" alt="BLTV" class="cusLogo">
+        <img src="../CustomerLogo/OMRON_Logo.svg.png" alt="OMRON" class="cusLogo">
+        <img src="../CustomerLogo/chinatimes.png" alt="chinatimes" class="cusLogo">
+        <img src="../CustomerLogo/Titv_logo.png" alt="Titv" class="cusLogo">
+        <img src="../CustomerLogo/air-e.png" alt="Air-English" class="cusLogo">
+    </div>
+</div>
+   
+<div style="margin: 80px 0;">
+    <h3 class="LogoTitle">Brightcove<br/>合作夥伴<br/>(串接廠商)</h3>
+    <div class="LogoArea">
+        <img src="../CustomerLogo/inplayer-logo.png" alt="inplay" class="cusLogo">
+        <img src="../CustomerLogo/adways.png" alt="adways" class="cusLogo">
+        <img src="../CustomerLogo/akamai-logo-web.png" alt="amaki" class="cusLogo">
+        <img src="../CustomerLogo/hapyak_nav_logo_color.png" alt="hapyak" class="cusLogo">
+        <img src="../CustomerLogo/yospace-205c_preview.png" alt="yospace" class="cusLogo">
+        <img src="../CustomerLogo/doubleclick.svg" alt="doubleclick" class="cusLogo">
+        <img src="../CustomerLogo/chatroll.png" alt="chatroll" class="cusLogo">
+        <img src="../CustomerLogo/WordPress_logo.svg.png" alt="sordpress" class="cusLogo">
+    </div>
+</div>
+
+<div class="clearFlot"></div> 
+   
+<footer align="center">  
+    <div class="flower"></div>
+    <a href="http://www.ipsystems.com.tw/" style="display: inline-flex;">
+       <div class="comLogo"></div>
+    </a><br/>
+    <span>聯絡電話:02-6632-3332</span><br/>
+    <span>地址:114台北市內湖區新湖二路26號</span><br/>
+    <p>&#169; 2018 IP SYSTEMS Inc. All Rights Reserved.</p>
+    <div class="bottom-color_line"></div>
+</footer>    
+
+</body>
+</html>
