@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11_06_h.w</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        body{font-family: Roboto, Noto Sans;}
+        .container{
+            margin: 0 auto;
+            max-width: 1100px;
+        }
+        .sl_bb{border-bottom: 7px solid #AA0601;}
+
+     /***background-color  ***/
+        .bgCr_cw{
+            background-color:#AA0601;
+            color: white;
+        }
+        .d_bg_c_b{background-color:#5F3E2D; margin-right: 8px;}
+        .d_bg_c_o{background-color:#B75929;}
+
+    /****************
+    *** Flex Area
+    *******/
+        .flex{display: flex;}
+        .f_w{flex-wrap:wrap;}
+        .flex_sa{
+            display: flex;
+            justify-content: space-around;
+        }
+        .flex_jcsb{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .flex_aic{
+            display: flex;
+            align-items: center;
+        }
+        .ta_c{text-align: center;}
+        .va_tb{vertical-align: text-bottom;}
+
+        .b_img2{background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-2-color.png");}
+        .b_img1{background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/banner-3.png");}
+
+        .i24{height: 24px;width: 24px;}
+        .i_size38{
+            width: 38px;
+            height: 38px;
+        }
+        .i_sieze40{
+            width: 44px;
+            height: 40px;
+        }
+        .i_size255{
+            width: 255px;
+            height: 164px;
+        }
+        .i_size420{
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 505px;
+            height: 160px;
+        }
+        .bg_s{background-size: cover;}
+
+
+    /***************** 
+    ** Margin Area
+    ******/
+      /* right */
+        .mr32{margin-right: 32px;}
+        .mr48{margin-right: 48px;}
+      /* bottom  */
+        .mb23{margin-bottom: 23px;}
+        .mb26{margin-bottom: 26px;}
+        .mb39{margin-bottom: 39px;}
+      /* left  */
+        .ml14{margin-left: 14px;}
+        .ml24{margin-left: 24px;}
+        .ml38{margin-left: 38px;}
+        .ml62{margin-left: 62px;}
+      /* margin  */
+        .mg64{margin:  40px 0 40px 64px;}
+        .mg24{margin: 24px 0 24px 0;}
+    /*** padding  ***/
+      /*   bottom   */
+
+        .pdb23{padding-bottom: 23px}
+      /* font-size  */
+        .fz14{font-size: 14px;}
+        .fz16{font-size: 16px;}
+
+        .container .flex_sa a{
+            text-decoration: none;
+            color: #000;
+        }
+        .container.nav .flex_sa li{
+            font-size: 42px;
+            line-height: 63px;
+        }
+        .container.ta_c h2{
+            font-size: 42px;
+            line-height: 63px;
+            margin: 88px 0;
+        }
+
+        .container.ta_c .flex_sa.f_w.prds li{
+            width: 26%;
+            margin-bottom: 104px;
+        }
+        .container.ta_c .flex_sa.f_w.prds li .flex_jcsb p, .container.ta_c .flex_sa.f_w.prds li .flex_jcsb span{
+            font-size: 24px;
+            line-height: 36px;
+        }
+        .container.ta_c .flex_sa.f_w.prds li .flex_jcsb p{ margin: 4px 0;}
+        .container.ta_c .flex_sa.f_w.prds li .flex_jcsb span{color:#AA0601;}
+        .container.ta_c .flex_aic{
+            margin-bottom: 156px;
+            justify-content: center;
+        }
+        .container.ta_c .flex_aic li button{
+            line-height: 25px;
+            cursor: pointer;
+        }
+        .container.ta_c .flex_aic li button:hover, .btn{
+            background-color:black;
+            color: #fff;
+        }
+
+
+    /*************
+    ***  Footer
+    ***** */
+        .footer{padding: 48px 0 28px 0;}
+        .footer a, .header a{
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+        .footer .contact{
+            font-size: 36px;   /*  字型可以一個  */
+            line-height: 54px;
+            border-bottom: 1px solid #fff;  /*  底框可以一個  */
+        }
+
+
+ 
+
+    /************  
+    ****** RWD  768
+    ***/
+        @media(max-width: 768px) {
+            .container{max-width: 768px;}
+            .mr32{margin-right: 24px;}
+            .mr48{margin-right: 40px;}
+            .mb26{margin-bottom: 11px;}
+            .mb39{margin-bottom: 24px;}
+            .ml24{margin-left: 20px;}
+            .ml38{margin: 0;}
+            .ml62{margin-left: 24px;}
+            .mg64{margin:  40px 0 40px 40px;}
+            .d_none{display: none;}
+
+            
+            .i32{width: 32px;height: 32px;}
+            .i25{width: 32px;height: 25px;}
+            .i23{width: 23px;height: 32px;}
+            .i_size420{width: 384px;height: 125px;}
+            .i_size255{width:330px;height: 164px;}
+
+            .container.nav .flex_sa.mg24 a{
+                font-size: 28px;
+                line-height: 42px;
+            }
+            .container.ta_c h2{
+                font-size: 32px;
+                line-height: 48px;
+                margin: 42px 0 32px 0;
+            }
+            .container.ta_c .flex_sa.f_w.prds li{
+                width: 43%;
+                margin-bottom: 72px;
+            }
+            .container.ta_c .flex_sa.f_w.prds li .flex_jcsb p, .container.ta_c .flex_sa.f_w.prds li .flex_jcsb span{
+                line-height: 30px;
+            }
+
+
+
+        /* Footer */
+            .i_size24{
+                width: 24px;
+                height: 24px;
+            }
+            .i_size38{
+                width: 18px;
+                height: 18px;
+                margin-left: 4px;
+            }
+            .i_size40{
+                width: 28px;
+                height: 24px;
+            }
+            .footer{padding: 40px 0 40px 0;}
+            .footer .contact{
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+
+    /************  
+    ****** RWD  375
+    ***/    
+        @media(max-width: 375px) {
+            .container{max-width: 375px}
+            .m0{margin:0;}
+            .mg24{margin:8px 0;}
+            .pd8{padding: 8px 0 8px 0;}
+            .block{display: block;}
+            .jcfe{justify-content: flex-end;}
+            .fdrr{flex-direction: row-reverse;}
+            .jcc{justify-content: center;}
+            .flex_w{ flex-wrap:wrap;}
+            .tac{text-align: center;}
+            .w100{width: 100%;}
+            .w44{width: 44%;}
+            .mg64{
+                margin:0;
+                padding:10px;
+                border: 1px solid white;
+            }
+            .d_bg_c_b{margin-right: 4px;}
+            .i24{width: 19px;height: 19px;}
+            .i25{width: 14px;height: 11px;}
+            .i32{width: 14px;height: 15px;}
+            .i23{width: 10px;height: 15px;}
+            .i_size420{width:188px;height: 55px;}
+            .i_size255{width: 345px;height: 166px;}
+
+            .container.nav .flex_sa.mg24 a, .container.nav .flex_sa li{
+                font-size: 13px;
+                line-height: 19px;
+            }
+            .container.ta_c h2{
+                font-size: 20px;
+                line-height: 30px;
+                margin: 30px 0 20px 0;
+            }
+            .container.ta_c .flex_sa.f_w.prds li {
+                width: 93%;
+                margin-bottom: 32px;
+            }
+            .container.ta_c .flex_sa.f_w.prds li .flex_jcsb p, .container.ta_c .flex_sa.f_w.prds li .flex_jcsb span {
+                line-height: 30px;
+                font-size: 16px;
+            }
+            .container.ta_c .flex_aic{margin: 10px 0 56px 0;}
+            .container.ta_c .flex_aic li button {padding: 8px 10px;}
+
+            
+
+        /* Footer */
+            .footer{padding: 25px 0 25px 0;}
+            .contact .mb23{font-size: 16px;}
+            ul.flex.fz16{ display: none;}
+            /* .w100{margin:8px 0 8px 0;} */
+            .s_logo{width: 46px;height: 28px;margin: 8px 0 8px 0;}
+
+        }
+
+
+    </style>
+</head>
+<body>
+<!-- P5, p13. p21 -->
+
+    <div class="header bgCr_cw">
+        <div class="container flex_jcsb jcc flex_w tac">
+            <ul class="w100 tac">
+                <li><a href="#"><img class="s_logo" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png" alt="logo"></a></li>
+            </ul>
+            <ul class="flex_aic jcc flex_w">
+                <li class="mg64 w44"><a href="#">系列鏡框</a></li>
+                <li class="mg64 w44"><a href="#">門市據點</a></li>
+                <li class="mg64 w44"><a href="#">部落格</a></li>
+                <li class="mg64 w44"><a href="#">常見問題</a></li>
+            </ul>
+        </div>   
+    </div> 
+
+    <div class="container nav">
+        <ul class="flex_sa mg24">
+            <li><a href="10_30_Hw_w3.html"><img class="i25" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-diamond-black.svg" alt=""><span> OPTICAL</span></a></li>
+            <li><a href="11_06_hw_w4.html" class="sl_bb"><img class="i32" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-sun-black.svg" alt=""><span class="va_tb"> SUNGLASSES</span></a></li>
+            <li><a href="#"><img class="i23" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-thunder-black.svg" alt=""><span class="va_tb"> FUNCTIONAL</span></a></li>
+        </ul>
+    </div>
+
+    <div>
+        <ul class="flex_jcsb">
+            <li class="b_img1 i_size420"></li>
+            <li class="b_img2 i_size420 bg_s"></li>
+        </ul>
+    </div>
+
+    <div class="container ta_c">
+        <h2>2020 NEW COLLECTION<br/>
+            賽璐珞鈦金屬混合鏡框
+        </h2>
+        <ul class="flex_sa f_w prds">
+            <li>
+                <img class="i_size255" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/products-4.png" alt="">
+                <div class="flex_jcsb">
+                    <p>BJ41600S</p>
+                    <span>NTD3,490</span>
+                </div>
+                <div class="flex">
+                    <div class="i24 d_bg_c_b"></div>
+                    <div class="i24 d_bg_c_o"></div>
+                </div>
+            </li>
+            <li>
+                <img class="i_size255" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/products-3.png" alt="">
+                <div class="flex_jcsb">
+                    <p>BJ41600S</p>
+                    <span>NTD3,490</span>
+                </div>
+                <div class="flex">
+                    <div class="i24 d_bg_c_b"></div>
+                    <div class="i24 d_bg_c_o"></div>
+                </div>
+            </li>
+            <li>
+                <img class="i_size255" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/products-2.png" alt="">
+                <div class="flex_jcsb">
+                    <p>BJ41600S</p>
+                    <span>NTD3,490</span>
+                </div>
+                <div class="flex">
+                    <div class="i24 d_bg_c_b"></div>
+                    <div class="i24 d_bg_c_o"></div>
+                </div>
+            </li>
+            <li>
+                <img class="i_size255" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/products-6.jpg" alt="">
+                <div class="flex_jcsb">
+                    <p>BJ41600S</p>
+                    <span>NTD3,490</span>
+                </div>
+                <div class="flex">
+                    <div class="i24 d_bg_c_b"></div>
+                    <div class="i24 d_bg_c_o"></div>
+                </div>
+            </li>
+            <li>
+                <img class="i_size255" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/products-11.jpg" alt="">
+                <div class="flex_jcsb">
+                    <p>BJ41600S</p>
+                    <span>NTD3,490</span>
+                </div>
+                <div class="flex">
+                    <div class="i24 d_bg_c_b"></div>
+                    <div class="i24 d_bg_c_o"></div>
+                </div>
+            </li>
+            <li>
+                <img class="i_size255" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week4/products-5.jpg" alt="">
+                <div class="flex_jcsb">
+                    <p>BJ41600S</p>
+                    <span>NTD3,490</span>
+                </div>
+                <div class="flex">
+                    <div class="i24 d_bg_c_b"></div>
+                    <div class="i24 d_bg_c_o"></div>
+                </div>
+            </li>
+        </ul>
+        <ul class="flex_aic">
+            <li><button>上一頁</button></li>
+            <li><button>1</button></li>
+            <li><button class="btn">2</button></li>
+            <li><button>3</button></li>
+            <li><button>4</button></li>
+            <li><button>5</button></li>
+            <li><button>下一頁</button></li>
+        </ul>
+    </div>
+    
+    <div class="footer bgCr_cw">
+        <div class="container">
+            <div class="flex_jcsb mb39 jcfe">
+                <ul class="flex fz16">
+                    <li class="mr48"><a href="#">首頁</a></li>
+                    <li class="mr48"><a href="#">系列鏡框</a></li>
+                    <li class="mr48"><a href="#">門市據點</a></li>
+                    <li class="mr48"><a href="#">部落格</a></li>
+                    <li><a href="#">常見問題</a></li>
+                </ul>
+                <ul class="flex_aic">
+                    <li class="mr32"><a href="#"><img class="i_size24" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-fb.svg" alt="Fb"> </a></li>
+                    <li class="mr32"><a href="#"><img class="i_size24" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-ig.svg" alt="Ig"></a></li>
+                    <li><a href="#"><img class="i_size24" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-line.svg" alt="line"></a></li>
+                </ul>
+            </div>
+            <ul class="contact mb23">
+                <li class="flex_aic mb26"><img class="i_size38" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-phone.svg" alt="tel"><a class="ml24" href="tel:+0800-000-000">0800-000-000</a></li>
+                <li class="flex_aic pdb23"><img class="i_size40" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/7059003f6d011be52053cb5e63d68f3999af01d7/week3/icon-mail.svg" alt="email"><a class="ml14" href="mailto:glasses@business.com">glasses@business.com</a></li>
+            </ul>
+            <div class="flex_jcsb flex_w">
+                <ul class="flex_aic fdrr">
+                    <li class="d_none block"><a href=""><img class="s_logo" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/logo.png" alt="logo"></a></li>
+                    <li class="ml38 fz16">Copyright © 2020 Glasses.All rights reserved.</li>
+                </ul>
+                <ul class="flex_aic fz14 flex_w">
+                    <li class="w100 pd8"><a href="#">隱私權政策</a></li>
+                    <li class="ml62 m0"><a href="#">服務條款</a></li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+
+
+</body>
+</html>
