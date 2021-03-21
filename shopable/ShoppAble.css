@@ -1,0 +1,301 @@
+    body {margin:0;}
+    .navB {background-color:#272727;border:none;}
+    .comLogo {width:200px;height:60px;float:left;margin-right:150px;cursor:pointer;}
+    .dropdown-menu li:hover .sub-menu {visibility: visible;}
+    .dropdown:hover .dropdown-menu {display: block;}
+    .navText {font-size: 20px;color:#ACD6FF;font-family:fantasy;}
+    .nav>li>a {padding: 15px 50px !important;}/*距離*/
+    .nav-tabs>li>a {border: none !important;}
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {background-color: #DEFFDE !important;}
+    .dropdown-menu {left:-1px !important;min-width: 158px !important;}
+    .dropdown-menu>li>a {font-family:fantasy;}/*下拉*/
+    .dropdown-menu>li>a:hover {background-color: #C9C9C9 !important;}
+    .nav-tabs {border-bottom: none !important;}
+    .FB {width:40px;height:40px;margin-top:10px;position:absolute;right:10px;cursor:pointer;}
+    .Email {
+        width:45px;
+        height:45px;
+        margin-top:10px;
+        cursor:pointer;
+        position:absolute;
+        right:70px;
+        animation: emailani 3s 1s 1 linear;
+        animation-fill-mode: forwards;
+    }
+    @keyframes emailani { from{transform: rotate(0deg);} to{transform: rotate(370deg);} }
+       
+    .HbackgroundImg {
+        background-image:url(http://i.imgur.com/mQ6fpta.jpg);
+/*        width:1349px;*/
+        height:610px;
+        background-repeat:no-repeat;
+        background-position:top right;
+        background-attachment:fixed;
+    }
+    .Hsecond {margin-left:230px;padding-top:35px;}
+    .Harea {margin-top:200px;margin-right:120px;}
+    .Htitle {font-size:34px;color:#ACD6FF;margin-top:10px;font-weight: bold;cursor:default;}
+    .Htext {margin-top:10px;font-size:20px;color:#E0E0E0;cursor:default;}
+    .tcloseI {height:20px;width:20px;}
+    
+    #btnTop {
+        display: none;
+        position:fixed;
+        right: 30px;
+        bottom: 30px;
+        font-size: 24px;
+        padding: 4px 10px;
+        border-radius: 6px;
+        border: none;
+        font-family: fantasy;
+        background-color: mediumseagreen; /*#3CB371*/
+        z-index: 2;
+        outline: none;
+    }
+    #btnTop:hover {
+	    background-color: #3CA361;
+        outline: none;
+    }
+    .vvR {height:390px;width:700px;border-radius:16px;float:right;}
+    .vvL {width:700px;height:390px;float:left;border-radius:16px;}
+    
+    .Marea {height:670px;padding-top:120px;margin-right:80px;}
+    .Mtitle {
+        margin-left:80px;
+        font-size:34px;
+        color:#000;
+        font-weight:bold;
+        position:relative;
+        top: 40px;
+        cursor:default;
+    }
+    .MtimeArea {
+        width:120px;
+        height:100px;
+        background-color:rgba(0, 30, 15, 1);
+        border-radius:8px;
+        position:relative;
+        left:420px;
+        top: -40px;
+        cursor: default;
+    }
+    .Mtime {
+        width: 100px;
+        height: 30px;
+        background-color: rgba(0, 0, 15, 0.9);
+        border-radius: 8px;
+        position: relative;
+        top: 8px;
+        left: 9px;
+        z-index: 2;
+        text-align:center;
+        font-size: 20px;
+        color: #ccc;
+        font-family: fantasy;
+    }
+    .MshowTime {text-align: center;position: relative;margin-top: 18px;font-size: 24px;color: #ccc;}   
+    .pointerR {
+        width:85px;
+        left:330px;
+        position:relative;
+        top: 95px;
+        z-index:2;
+    }
+    .pointerR.AniP {
+        animation: pointerR 2s 1 ease;
+        animation-fill-mode:forwards;
+    }
+    @keyframes pointerR {
+            0% {transform: rotate(15deg);}
+            20% {transform: rotate(-105deg);}
+            40% {transform: rotate(0deg);}
+            60% {transform: rotate(-90deg);}
+            80% {transform: rotate(-15deg);}
+            100% {transform: rotate(-45deg);}
+    }
+    .Darts {
+        position: absolute;
+        left: 170px;
+        top: 910px;
+        width: 250px;
+        transition: rotate 5s;
+        animation-fill-mode:forwards;
+    }
+    .Darts.AniD {
+        animation: Dfirst 2s 1 ease;
+        transition: rotate 5s;
+        animation-fill-mode:forwards;
+    }
+    @keyframes Dfirst { from{transform: rotate(0deg);} to{transform: rotate(360deg);} }
+    .DartsTL {width:125px;cursor: pointer;}
+    .DartsTR {width:120px;cursor: pointer;}
+    .DartsBL {width:125px;cursor: pointer;}
+    .DartsBR {width:119px;cursor: pointer;}
+    .Mtslogan {
+        position: relative;
+        top: 200px;
+        left: 300px;
+        font-size: 22px;
+        color: #FFFF77;
+        font-weight: bold;
+        cursor:default;
+    }/*moviebook 標語 slogan  動畫時間  動畫前的時間*/
+    .Mtslogan.AniS {
+        background-color: rgba(0, 30, 15, 1);
+        padding: 10px 16px;
+        border-radius: 8px;
+        animation: fadeinMts 3s 1 linear;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeinMts { 
+        0%   {opacity: 0;}
+        50%  {opacity: 0;}
+        100% {opacity: 1;}
+    }
+ 
+    .shopBackgroundImg {background-image:url(http://i.imgur.com/JQoGTJg.jpg);clear:right;}
+    .sArea {height:670px;padding-top:90px;margin-left:100px;}
+    .sTitle {
+        font-size:34px;
+        color:#004;
+        font-weight: bold;
+        position: relative;
+        right: 180px;
+        top: -10px;
+        cursor:default;
+    }
+    .LV {
+        width: 100px;
+        height: 140px;
+        position: relative;
+        right: 450px;
+        top: 315px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .LV.AniLV{
+        animation: fadeinLV 3s 1 linear;
+        animation-fill-mode: forwards;
+    }
+    @keyframes fadeinLV {
+          0% { opacity: 0;}
+         50% { opacity: 0;}
+        100% { opacity: 0.5;}
+    }
+    
+    .Aarea {height:670px;padding-top:60px;margin-right:80px;}
+    .Atext1 {position:absolute;right:190px;font-size:20px;}
+    .Atext2 {position:absolute;right:280px;margin-top:30px;font-size:20px;}
+    .Atitle {
+        margin-left:80px;
+        font-size:34px;
+        color:#000;
+        font-weight:bold;
+        position:relative;
+        top: -20px;
+        cursor:default;
+    }
+    .pradaPoster {width:100px;height:140px;position: relative;bottom: 170px;opacity: 0.9;}
+    .pradaD {width:180px;height:120px;float: right;margin-right: 120px;margin-top: -150px;}
+    .velArea {
+        position:relative;
+        left:50px;
+        top:10px;
+        width:320px;
+        border-radius:40px;
+        padding: 10px 0 10px 20px;
+        background-color: rgba(0, 89, 60, 0.5);
+        cursor:pointer;
+    }
+    .velText {
+        display:inline;
+        vertical-align:text-top;
+        color:currentColor;
+        cursor:pointer;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .velImg {width:160px;height:80px;}
+    .velImg:hover, .etiImg:hover { 
+        border: 2px solid yellow;
+        border-radius: 100%;
+        animation: cir 3s infinite linear;
+        background-color: #fff;
+    }
+    .linRArea {
+        position:relative;
+        left:130px;
+        top:40px;
+        width:160px;
+        padding: 10px 0 10px 15px;
+        cursor:pointer;
+    }
+    .linCir {border-radius:100%;border:2px solid #6C6C6C;height:140px;width:140px;padding-top: 30px;}
+    .linCir:hover {border-color: yellow;animation: cir 3s infinite linear;}
+    @keyframes cir {
+          0% { transform: scale(1,1);}
+         50% { transform: scale(1.2,1.2);}
+        100% { transform: scale(1.5,1.5);}
+    }  
+    .linRText {
+        display:inline;
+        vertical-align:text-top;
+        margin-left:5px;
+        color:darkslateblue;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .linRImg {width:140px;height:80px;}
+    .briArea {
+        position:relative;
+        left:300px;
+        top:-150px;
+        width:200px;
+        padding: 10px 0 10px 15px;
+        cursor:pointer;
+    }
+    .briCir {width:50px;height:50px;position: absolute;opacity: 0.5;margin-left: 10px;}    
+    .briText {display:inline;vertical-align:text-top;margin-left:45px;color:darkslateblue;cursor: pointer;font-family: sans-serif;font-weight: bold;}
+    .briImg {width:180px;height:140px;}
+    .briImg:hover {
+        border: 2px solid yellow;
+        animation: cir 3s infinite linear;
+        border-radius: 100%;
+    }
+    .etiArea {
+        position:relative;
+        left:240px;
+        top:-120px;
+        width:300px;                    
+        border-radius:40px;
+        padding: 10px 0 10px 25px;
+        background-color: rgba(0, 89, 60, 0.9);
+        cursor:pointer;
+    }
+    .etiText {
+        display:inline;
+        vertical-align:text-top;
+        color:lightcyan;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    .etiImg {width:130px;height:80px;margin-left: 20px;}
+    
+    
+    footer {
+        background-color:#161616;
+        color:#BEBEBE;
+        height:180px;
+        line-height:24px;
+        padding-top:20px;
+        clear:left;
+    }
+    .comText {cursor:default;font-family: sans-serif;}
+    .brightcoveLogo {width:200px;height:50px;margin-right:20px;}
+    .movebookLogo {width:140px;height:30px;padding-top:5px;}
+    .versionWeb, .versionPhone  {color:#BEBEBE;text-decoration: none;}
+/*    .versionWeb:hover, .versionPhone:hover {color:#99FF99;text-decoration: none;}*/
+    .copyright {color:orange;font-family: sans-serif;cursor:default;margin-top: 15px;}
+   
