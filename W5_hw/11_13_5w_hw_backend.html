@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>11_13_5w.h.w</title>
+    <script src="https://kit.fontawesome.com/1cbcc009b3.js" crossorigin="anonymous"></script>
+<style>
+    html, body, .nav_w{height: 100%;font-family: Lato;}
+    li{list-style: none;}
+    ul, p{padding: 0; margin: 0;}
+    .float_l{float: left;}
+    .fz_14{font-size: 14px;}
+    .green{color: green;vertical-align: text-top;}
+    .clear{clear: both;}
+
+    .head_icon_area{display: flex;}
+    .color_g{color:#0000009A;}
+
+    .nav_w{
+        width: 296px;
+        background-color: #EDF4EE;
+        padding: 25px 15px;
+    }
+    .nav_w a{
+        color:#121212;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+    .headpic{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 16px;
+        object-fit: cover;
+    }
+    .nav_w .nav-item i{ width: 25px;}
+
+    .ass_block{width:400px;}
+    .nav_s_li{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;padding: 12px;
+        border: 1px solid #CDDDCD;
+        border-radius: 2px 2px 0 0;
+    }
+    .ass_block .active, .bg_m{background-color: #EDF4EE;}
+    .nav_s_li h5{width:190px;}
+    .nav h5, .nav li{font-size: 12px;}
+    .nav_s_li .con{
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .c_g{color: #7B7B7B;}
+    .chp{margin-bottom: 4px;}
+
+    .fw_bold{font-weight: 600;}
+    .fz_12{font-size: 12px;}
+    .fz_16{font-size: 16px;}
+    .w_70{width:70%;}
+
+    .r-block{
+        border: 1px solid #CDDDCD;
+        border-radius: 2px;
+    }
+    .r-head{
+        padding: 1px 10px;
+        border-bottom: 1px solid #CDDDCD;
+    }
+    .r_msg{
+        padding: 16px 0;
+    }
+    .r-msg_btn{
+        border: 1px solid #CDDDCD;
+        padding: 4px 8px;
+        background-color: #EDF4EE;
+        border-radius: 2px;
+    }
+    .r-top-msg{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #CDDDCD;
+    }
+    .r-f-btn_block{
+        margin-left: 25%;
+    }
+
+    .mar-btn{
+        border: 1px solid #2A8356;
+        color: #2A8356;
+        padding: 8px 16px;
+        border-radius: 2px;
+    }
+    .rep-btn{
+        background-color: #2A8356;
+        border: 1px solid #2A8356;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 2px;
+    }
+    .mark_sp{
+        color: #2A8356;
+        background-color: #EDF4EE;
+    }
+    .ml-b{
+        margin-left: 76%;
+        margin-right: 2%;
+    }
+
+
+</style>
+</head>
+<body>
+
+    <div class="nav_w nav flex-column justify-content-between float_l">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-chart-bar"></i>Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-comments"></i>Question</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-file-alt"></i>Assignment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-youtube"></i>Course</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user-cog"></i>Admin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-cog"></i>Settings</a>
+            </li>
+        </ul>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link head_icon_area" href="#">
+                    <img class="headpic" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg" alt="">
+                    <div>Andy Chen <br/>
+                    <span class="color_g fz_14">andy0401@mail.com</span></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Assignment</a>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Courses</a>
+                    <!-- <span class="material-icons">expand_more</span> -->
+                </li>
+            </ul>
+        </div>
+            <ul class="navbar-nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="material-icons">search</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="material-icons">notifications_active</span></a>
+                </li>
+            </ul>
+    </nav>
+
+    <div>
+        <ul class="d-flex justify-content-between align-items-center px-5">
+            <li class="mt-2">
+                <span class="fw_bold">All(4)</span>    
+                <span class="material-icons green">expand_more</span>
+            </li>
+            <li>
+                <span>2</span>&nbsp;<span>comments</span>
+            </li>
+        </ul>
+    </div>    
+
+    <div class="d-flex justify-content-between px-5">
+        <ul class="nav ass_block">
+            <li class="nav-item nav_s_li active">
+                <h5 class="chp">Chapter Assignment 2</h5><span>4 hrs ago</span>
+                <h5 class="con">Please check this file…</h5><span class="c_g">Emily Wang</span>
+            </li>
+            <li class="nav-item nav_s_li">
+                <h5 class="chp">Chapter Assignment 1</h5><span>12 hrs ago</span>
+                <h5 class="con">My Homework</h5><span class="c_g">David Xu</span>
+            </li>
+            <li class="nav-item nav_s_li">
+                <h5 class="chp">Final Assignment</h5><span>18 hrs ago</span>
+                <h5 class="con">Have a problem with this...</h5><span class="c_g">Tony Wei</span>
+            </li>
+            <li class="nav-item nav_s_li">
+                <h5 class="chp">Final Assignment</h5><span>19 hrs ago</span>
+                <h5 class="con">Did I do it right?</h5><span class="c_g">Christina Lin</span>
+            </li>
+        </ul>
+
+        <div class="d-flex flex-column w_70 r-block">
+            <ul class="d-flex justify-content-between align-items-center bg_m r-head">
+                <li class="py-2">
+                    <p class="fz_12">Chapter Assignment 2/ HTML&CSS</p>
+                    <span class="fw_bold fz_16">Please check this file for me, thanks!</span>
+                </li>
+                <li><i class="fas fa-ellipsis-v"></i></li>
+            </ul>
+
+            <ul class="d-flex m-3">
+                <li>
+                    <img class="headpic" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/emilywang.jpeg" alt="preson_header">
+                </li>
+                <li class="r-top-msg">
+                    <p class="fz_16">Emily Wang</p>
+                    <span class="fz_12 c_g">10:38 AM (4 hours age)</span>
+                    <p class="fz_14 r_msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="mark_sp">div:</span> Reiciendis distinctio veritatis officia et 
+                        accusantium iusto provident suscipit pariatur esse. <span class="mark_sp">img</span> Atque, dolorem soluta molestias, similique totam 
+                        reprehenderit assumenda obcaecati voluptatibus earum dolores molestiae. <br/>Ducimus repellat debitis officia 
+                        voluptatum.</p>
+                    <button class="r-msg_btn"><i class="fas fa-paperclip"></i>&nbsp;HW-2-David.Zip</button>
+                </li>
+            </ul>
+            
+            <div class="d-flex m-3">           
+                <ul>
+                    <img class="headpic" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg" alt="">
+                </ul>
+                <ul>
+                    <li>
+                        <p class="fz_16">Andy Chen (You)</p>
+                        <span class="fz_12 c_g">13:24 AM (1 hours age)</span>
+                        <i class="far fa-star ml-b"></i>
+                        <i class="fas fa-pen"></i>
+                    </li>
+                    <li class="fz_14 r_msg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem cupiditate in error perferendis,
+                            fugiat fugit odit, nulla repudiandae exercitationem autem numquam eveniet tempore hic aliquid neque,
+                            quos esse incidunt laborum.</li>
+                    <li class="fz_14 r_msg">Lorem ipsum <span class="mark_sp">vertical-align</span> dolor sit, amet consectetur adipisicing elit. Velit commodi at
+                            fuga eius! Ipsum, obcaecati. <span class="mark_sp">middle</span></li>
+                    <li class="fz_14 r_msg">Lorem ipsum <span class="mark_sp">display</span> dolor sit amet.</li> 
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <ul class="d-flex justify-content-center align-items-center my-3">
+        <li>
+            <span><i class="fas fa-less-than"></i></span>
+            <span class="ml-5"><i class="fas fa-greater-than"></i></span>
+        </li>
+        <li class="r-f-btn_block">
+            <button class="mar-btn">Mark&nbsp;as&nbsp;read</button>
+            <button class="ml-3 rep-btn">Reply</button>
+        </li>
+    </ul>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>    
+</body>
+</html>
