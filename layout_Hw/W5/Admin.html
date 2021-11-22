@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Css/Assignment.css">
+    <style>
+        .table td, .table th{
+            border-bottom:1px solid #dee2e6;
+            border-top: none;
+            padding: 0.75rem;
+        }
+        .table thead th{
+            border-bottom: 1px solid #000;
+        }
+        .title{
+            cursor: default;
+            font-size: 24px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .title:hover{
+            text-decoration: none;
+        }
+        .personPic{
+            width: 45%;
+            height: auto;
+            padding: 25px;
+            object-fit: cover;
+        }
+        .sm{
+            width: 5px;
+        }
+        .border-n{
+            border: none;
+        }
+        .add-input{
+            width: 100%;
+            font-size: 16px;
+            line-height: 40px;
+            padding: 4px 8px;
+            border-radius: 2px;
+            border: 1px solid #121212;
+            margin-bottom: 16px;
+        }
+        .color-pink{color: #E3006E;}
+        .level{
+            background-color: #fff;
+            color: #0000009A;
+            text-align: left;
+        }
+        .check-B{
+            width: 15px;
+            height: 15px;
+            outline: 1px solid #000;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav_w nav flex-column justify-content-between float_l">
+        <ul class="nav flex-column">
+            <li class="nav-item pt-4">
+                <a class="nav-link" href="#"><img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/085a62fb22df4bf21c605a180648c6c6e35c2b32/week5/logo-ANSWER.svg" alt=""></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-chart-bar"></i>Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-comments"></i>Question</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Assignment.html"><i class="fas fa-file-alt"></i>Assignment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fab fa-youtube"></i>Course</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link menu-active" href="#"><i class="fas fa-user-cog"></i>Admin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-cog"></i>Settings</a>
+            </li>
+        </ul>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link d-flex" href="#">
+                    <img class="headpic" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg" alt="">
+                    <div>Andy Chen <br/>
+                    <span class="user_email_c fz_14">andy0401@mail.com</span></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="w-80 ml-m pt-3 me-5">
+        <nav class="navbar navbar-expand-lg mb-2">
+            <a class="title" href="#">Admin&nbsp;</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item" data-bs-toggle="modal" data-bs-target="#addAdmin">
+                        <a class="nav-link" href="#"><i class="fas fa-plus color_m"></i>&nbsp; Add New Admin</a>
+                    </li>
+                </ul>
+            </div>
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="material-icons">search</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><span class="material-icons">notifications_active</span></a>
+                    </li>
+                </ul>
+        </nav>
+
+    
+        <table class="ml-s w-95 table mb-4">
+            <thead>
+                <tr>
+                  <th scope="col">ID&nbsp;<i class="fas fa-arrow-down color_m"></i></th>
+                  <th scope="col">Name</th>
+                  <th scope="col">E-mail</th>
+                  <th scope="col">Verified</th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">#1</th>
+                  <td>Emir Wicks</td>
+                  <td>emir.wicks@mail.com</td>
+                  <td>Yes</td>
+                  <td><i class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#viewModal"></i></td>
+                  <td><i class="fas fa-pen"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">#2</th>
+                  <td>Zaina Goldsmith</td>
+                  <td>zaina.goldsmith@mail.com</td>
+                  <td>Yes</td>
+                  <td><i class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#viewModal"></i></td>
+                  <td><i class="fas fa-pen"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row">#3</th>
+                  <td>Mahima Lopez</td>
+                  <td>Mahima.Lopez@mail.com</td>
+                  <td>Yes</td>
+                  <td><i class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#viewModal"></i></td>
+                  <td><i class="fas fa-pen"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">#4</th>
+                    <td>Pharrell Murray</td>
+                    <td>Pharrell.Murray@mail.com</td>
+                    <td>Yes</td>
+                    <td><i class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#viewModal"></i></td>
+                    <td><i class="fas fa-pen"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">#5</th>
+                    <td>Annika Mcbride</td>
+                    <td>Annika.Mcbride@mail.com</td>
+                    <td>Yes</td>
+                    <td><i class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#viewModal"></i></td>
+                    <td><i class="fas fa-pen"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">#6</th>
+                    <td>Fatimah Clark</td>
+                    <td>Fatimah.Clark@mail.com</td>
+                    <td>Yes</td>
+                    <td><i class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#viewModal"></i></td>
+                    <td><i class="fas fa-pen"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">#7</th>
+                    <td>Klaudia Rhodes</td>
+                    <td>Klaudia.Rhodes@mail.com</td>
+                    <td>Yes</td>
+                    <td><i class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#viewModal"></i></td>
+                    <td><i class="fas fa-pen"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">#8</th>
+                    <td>Tillie Lucero</td>
+                    <td>Tillie.Lucero@mail.com</td>
+                    <td>Yes</td>
+                    <td><i class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#viewModal"></i></td>
+                    <td><i class="fas fa-pen"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">#9</th>
+                    <td>Sabrina Stephenson</td>
+                    <td>Sabrina.Stephenson@mail.com</td>
+                    <td>Yes</td>
+                    <td><i class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#viewModal"></i></td>
+                    <td><i class="fas fa-pen"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">#10</th>
+                    <td>Annie Smith</td>
+                    <td>Annie.Smith@mail.com</td>
+                    <td>Yes</td>
+                    <td><i class="fas fa-eye" data-bs-toggle="modal" data-bs-target="#viewModal"></i></td>
+                    <td><i class="fas fa-pen"></i></td>
+                </tr>
+              </tbody>
+        </table>
+
+        <nav class="me-4">
+            <ul class="pagination justify-content-end">
+              <li><a class="page-link"><i class="fas fa-less-than"></i></a></li>
+              <li><a class="page-link" href="#">1</a></li>
+              <li><a class="page-link bg-m2" href="#">2</a></li>
+              <li><a class="page-link" href="#">3</a></li>
+              <li><a class="page-link" href="#"><i class="fas fa-greater-than"></i></a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addAdmin">
+Launch static backdrop modal
+</button> -->
+
+<!--New Admin Modal -->
+<div class="modal fade" id="addAdmin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header border-n">
+                <h5 class="modal-title fw_bold" id="exampleModalLabel">New Admin</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="px-3 pt-1">
+                <h5 class="fw_bold fz_20">Account</h5>
+                <label class="fz_16" for="Name">Name</label>
+                <input type="text" name="name" class="add-input">
+                <label class="fz_16" for="E-mail">E-mail</label>
+                <input type="text" class="add-input">
+                <hr>
+            </div>
+
+            <ul class="modal-body pt-2">
+                <li>
+                    <h5 class="fw_bold fz_20">Verification</h5>
+                    <p><i class="fas fa-exclamation-triangle color-pink"></i>&nbsp;Unverified</p>
+                    <button class="btn_c btn-mar w-100">Send Verification Mail</button>
+                    <hr class="mt-4">
+                </li>
+                <li>
+                    <h5 class="fw_bold fz_20">Access Level</h5>
+                    <button class="add-input level">-Choose access level-<span class="material-icons ver-am ml-mP">expand_more</span></button>
+                    <hr>
+                </li>
+                <li>
+                    <h5 class="fw_bold fz_20">Custom Access</h5>
+                </li>
+                <li class="mb-2">
+                    <input type="checkbox" class="check-B">
+                    <label>lecture</label>
+                </li>
+                <li class="mb-2">
+                    <input type="checkbox" class="check-B">
+                    <label>Coupon</label>
+                </li>
+                <li class="mb-2">
+                    <input type="checkbox" class="check-B">
+                    <label>Message</label>
+                </li>
+                <li class="mb-2">
+                    <input type="checkbox" class="check-B">
+                    <label>Setting</label>
+                </li>
+                <li class="mb-2">
+                    <input type="checkbox" class="check-B">
+                    <label>Task menu</label>
+                </li>
+            </ul>
+
+            <div class="modal-footer">
+                <button type="button" class="btn_c btn-mar me-3" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn_c btn-rep">Add</button>
+            </div>
+
+        </div>
+    </div>
+</div>    
+    
+
+
+  
+<!--View  Modal -->
+<div class="modal fade" id="viewModal" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content d-flex flex-row">
+            <img class="personPic" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/emir.jpeg" alt="headpic">
+            <div class="modal-body">
+                <ul>
+                    <li class="d-flex justify-content-between">
+                        <span class="fw_bold">#1</span>
+                        <button type="button" class="btn-close sm" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </li>
+                    <li>Admin</li>
+                    <li class="title">Emir Wicks</li>
+                    <li class="c_g">emir.wicks@mail.com</li>
+                    <li class="d-flex justify-content-between">
+                        <span class="mark_sp">Verified</span>
+                        <span class="material-icons Down-arr">expand_more</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 
+1.先把版切出來
+2.先做一個
+3.多個要怎麼做
+4.資料要怎麼代回去
+5.data-* attribute
+ -->
+
+
+<script src="https://kit.fontawesome.com/1cbcc009b3.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+</html>
