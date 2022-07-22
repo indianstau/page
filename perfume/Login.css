@@ -1,0 +1,87 @@
+/* 歸零  normalize好 or reset ?  */
+/*  Login 包 header footer */
+body{margin: 0;}
+ul{margin:0;padding: 0;}
+li {list-style-type: none;}
+a{text-decoration: none;}
+
+/** Login Page   
+**  固定格局      
+**   左右      **/
+.header, .btn_group, footer div{
+    display: flex;
+    justify-content: space-between;
+}
+/* PC版置中推 */
+.header, nav ul, .container, footer div{    
+    margin: 0 auto;
+    width: 1200px;
+}
+/* 水平中 */
+.menu, .contact, .btn_group a, .copyright{
+    display: flex;
+    align-items: center;
+}
+/* Flex + row */
+.menu, .contact{flex-direction: row;}
+nav ul, .container{display: flex;}
+
+/* pic */
+.logo, .logo1{width: 128px;height: 38px;}
+.logo{background:url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/d%E2%80%99Perfume.png') 0% 0% no-repeat padding-box;}
+.logo1{background:url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/d%E2%80%99Perfumewhite.png') 0% 0% no-repeat padding-box;}
+.pic{
+    width: 650px;
+    height: 650px;
+    background: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/login1.jpg) 50% 50% no-repeat padding-box;
+    background-size: cover;
+    margin-right: 30px;
+}
+
+/* padding */
+.header{padding: 8px 0;}
+nav ul{padding: 14px 0;}
+/* Block 上下  */
+.container{padding: 80px 0;}
+/* ul 上下 */
+footer ul{padding: 28px 0;}
+
+/** margin 
+**  header footer 向左推
+**  nav 向右推           **/
+.menu li, .contact li, footer span{margin-left: 28px;}
+/* icon */
+.menu li a i{margin-right: 4px;}
+nav li{margin-right: 28px;}
+
+/* font size li */
+.menu li a ,nav li a, .contact li a{font-size: 20px;}
+footer span, .btn, .btn_group a{font-size: 16px;}
+
+/* login block */
+.login_group{
+    margin: auto;
+    padding-bottom: 15%;
+    width: 350px;
+}
+.login_group h2{font-size: 26px;}
+.login_group input{
+    width: 95%;
+    border-radius: 4px;
+    border: 1px solid #CED4DA;
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 24px;
+}
+.btn{
+    border-radius: 4px;
+    border: 1px solid #916000;
+    padding: 8px 16px;
+}
+
+/* color bg + text, btn */
+.menu li a{color:#8d8d8d;}  /*.tGrey*/
+nav, .b_brown, footer{background-color: #916000;}
+.container a, .t_brown{color: #916000;}
+nav li a, .t_white, footer span, footer li a{color: #fff;}
+.b_white{background-color: #fff;}

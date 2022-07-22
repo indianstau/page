@@ -1,0 +1,130 @@
+/* body{width: 1730px;} */
+h2, h3, p{margin: 0;}
+
+.pc_size, .introduction{margin: 0 auto;width: 1200px;display: flex;}
+.introduction{flex-wrap: wrap;}
+.fc_inBtg{display: flex;}
+.jc_sb, .introduction{justify-content: space-between;}
+.bottle_rblock{margin: auto;}
+
+.hc_block{
+    position: absolute;
+    width: 380px; /*380px*/
+    top: 27%;   /* 200px*/
+    right: 15%; /*300px*/
+}
+.fc_block{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+.bottle_rblock{width: 400px;}
+
+
+/*圖片區*/
+.h_carousel{
+    height: 783px; /* 783  688*/
+    background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index1.jpg') 50% 50% no-repeat;
+    color: #fff;
+}
+.f_carousel{
+    height: 600px;
+    background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg') 0% 47% no-repeat;
+}
+.h_carousel, .f_carousel{background-size: cover;position: relative;}
+.product1{background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index2.jpg') no-repeat;}
+.product2{background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index3.png') no-repeat;}
+.product3{background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index4.jpg') no-repeat;}
+.product4{background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index5.jpg') no-repeat;}
+.product7{background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index6.jpg') no-repeat;}
+.product8{background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index7.jpg') no-repeat;}
+.product9{background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index8.jpg') no-repeat;}
+.product7, .product8, .product9{width: 350px; height: 540px;background-size: cover;margin-bottom: 8px;}
+.product1, .product2, .product3{width: 600px;height: 555px;background-size: cover;}
+.product4{width: 600px;height: 1080px;background-size: cover;}
+.bottle_r_pic{
+    width: 730px;
+    height: 485px;
+    background: url('https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index9.jpg') no-repeat;
+    background-size: contain;
+    margin-right: 30px;
+}
+
+/* btn 區*/
+.home_btn{
+    border:  2px solid #fff;
+    background: #0000;
+    border-radius: 25px;
+    font-size: 28px;
+    border-radius: 25px;
+    width: 280px;
+    height: 50px;
+}
+.int_btn{
+    border: 2px solid #000;
+    background: #0000;
+    color: #000;
+    border-radius: 36px;
+    width: 90%;
+    margin-top: 20px;
+    padding: 16px 12px;
+}
+.fc_inBtg input, .fc_inBtg button{
+    border: 2px solid #916000;
+    padding: 16px 12px;
+}
+.fc_inBtg button{
+    background: #916000;
+    border-radius: 0 4px 4px 0;
+}
+.fc_inBtg input{border-radius:  4px 0 0 4px;}
+
+.product1_int, .product2_int, .product3_int, .product4_int{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.soldout{
+    background: rgba(11, 21, 18, 0.5);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* common 合併*/
+.bottle_rblock a, .introduction a{color: #916000;}
+ .shopping s, .fc_block{color: #8d8d8d;}
+.home_btn, .soldout, .fc_inBtg button{color: #fff;}
+
+.shopping{background: #e0e0e0;padding: 40px 0;}
+
+.fc_block h2{line-height: 42px;}
+.hc_block p{line-height: 36px;}
+
+/* 有 = 28 px? */
+.ml10{margin-left: 10%;}
+.mr10{margin-right: 10%;}
+
+.bottle_rblock p{margin: 24px 0;}
+
+.mgb80, .h_carousel, .introduction, .shopping{margin-bottom: 80px;}
+.product4_int div{margin-bottom: 40px;}
+.introduction h2, .fc_block h2{margin-bottom: 20px;}
+.hc_block p{margin-bottom: 16px;}
+.bottle_rblock h2, .shopping p, .product1_int p, .product2_int p, .product3_int p, .product4_int p{margin-bottom: 8px;}
+.shopping p{margin-top: 8px;}
+
+.hc_block p, .bottle_rblock span{font-size: 24px;}
+.int_btn, .bottle_rblock p, .fc_inBtg input, .fc_inBtg button, .product4_int p, .introduction p, .fc_block h2{font-size: 20px;} 
+
+/* common 合併*/
+.shopping h3, .shopping span, .shopping s, .shopping p, b{font-size: 16px;}
+
+.hc_block h1, .product1_int h2, .product2_int h2, .product3_int h2, .product4_int h2, .bottle_rblock h2, .soldout{font-size: 30px;}
+
+
+
