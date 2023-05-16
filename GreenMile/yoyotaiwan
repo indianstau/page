@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="keywords" content="友友台灣,台湾の情報総合サイト,台灣文化,台灣觀光,日本留學情報,日本事務所設立,國際交流,日台國際交流サイト,外国人サポート,外國人支援,台灣料理教室,中國語教室,台灣語教室,台灣人教師,台灣料理研究家,日本working holiday,日本簽證,日台言語交換,友達募集,哈日族,哈台族,台灣澎湖島,澎湖島觀光情報サイト,吉貝沙尾,雙心石滬,澎湖觀光宣傳事務所,日台通譯、翻譯,台灣市場調查,台灣芒果,台灣荔枝,台湾マンゴー,台湾ライチ,ゲストハウス,台湾の観光・グルメ・ホテル・台湾旅行ガイドなどを紹介。台湾掲示板やＦ４の掲示板、ロケ地などもあります。" />
+<meta http-equiv="description" content="台湾のことなら台湾人に聞こう！關於日本的大小事，請詢問在日台灣人！台湾,台北,台湾旅行,ホテル,大好き台湾,旅行,観光,掲示板,情報,たいわん,ｔａｉｗａｎ,ｔａｉｐｅｉ,ロケ地" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<link rel="stylesheet" href="http://yoyotaiwan.boo.jp/20220929san/index.css" type="text/css">
+<title>友友台湾國際交流会 台湾のことなら台湾人に聞こう！ ★ 關於日本的大小事，請詢問在日台灣人！</title>
+</head>
+<body>
+<!-- orginal homepage name is oldIndex.html -->
+<nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/yoLogo.png"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
+            <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse offcanvas offcanvas-end menu" id="navbarOffcanvasLg" tabindex="-1">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="/001add.php">イベント参加</a></li>
+              <li class="nav-item"><a class="nav-link" href="/02.html">イベント実績</a></li>
+              <li class="nav-item"><a class="nav-link" href="/09.html">会員サポート</a></li>
+              <li class="nav-item"><a class="nav-link" href="http://greenmilejapan.boo.jp/">運営会社</a></li>
+              <li class="nav-item"><a class="nav-link" href="/04.html">リンク集</a></li>
+              <li class="nav-item"><a class="nav-link" href="mailto:greenmile@wonder.ocn.ne.jp">お問い合わせ</a></li>
+              <li class="nav-item"><a class="navbar-brand" href="https://line.me/ti/p/@277ewzpb"><img src="./20220929san/indexPic/line.png" class="rounded-1" width="35" height="35"></a>
+                <a class="navbar-brand" href="https://www.facebook.com/YouYouTaiWanGuoJiJiaoLiuHui/?ref=pages_you_manage"><img src="./20220929san/indexPic/facebook.png" width="35" height="35"></a>
+                <a href="/oldIndex.html"><img class="pb-1" src="./20220929san/indexPic/oldhome.png" width="36"></a></li></ul>  
+        </div>
+    </div>
+</nav>
+
+<div class="position-relative">
+    <img class="bgpic" src="http://yoyotaiwan.boo.jp/20220929san/indexPic/machis.jpg">
+    <div class="banner_text"><h3>台湾のことなら台湾人に聞こう！<br/>(關於日本的大小事，請詢問在日台灣人！)</h3></div>
+</div>
+
+<div class="transBlock d-flex justify-content-end align-items-center flex-wrap my-5 mR8">
+  <div class="transText"><h3>通訳翻訳ナビ</h3>
+    <ul><li><a href="http://greenmilejapan.boo.jp/">台湾専門通訳手配</a></li>
+        <li><a href="chin01.html">翻訳、通訳実績</a></li></ul></div>
+  <img class="transpic ms-5" src="http://yoyotaiwan.boo.jp/20220929san/indexPic/translate.png">
+</div>
+
+<div class="bgc2 block-tbP shadow">
+  <div class="d-flex justify-content-around align-items-center flex-wrap pb-1 mb-5">
+    <div class="position-relative"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/maiko.jpg" class="maiko"></div>
+    <div class="jinfo-Textblock"><h3>日本留学情報集</h3>
+      <div class="d-flex justify-content-between flex-wrap">
+        <ul><li><a href="/ryugakuseiguidence2012.htm" class="text-red">留学生就業指導</a></li>
+          <li><a href="freejapanese.htm">免費日語學習連結</a></li>
+          <li><a href="http://www.jpss.jp/">日本各級學校情報</a></li>
+          <li><a href="/taiwanchinashool.htm">日本留学情報満載</a></li></ul>
+        <ul><li><a href="/rixyuugaku01.htm">準備留學及遊學</a></li>
+          <li> <a href="/studyguide" class="text-red">日本国内升學指導</a></li>
+          <li><a href="http://u-biq.org/">日本日語義工教室情報</a></li>
+          <li><a href="http://tokyohouse1.pixnet.net/blog">蔡姐留日生活論壇</a></li></ul>
+        </div></div></div>
+  <div class="gjwb d-flex justify-content-evenly align-items-flex-start flex-wrap">
+    <div><h3>GUESTHOUSE</h3>
+      <ul><li><a href="/philips/index.html">國際留學生GuestHouse</a></li>
+          <li><a href="homeparty001.htm">友友台湾ハウスのメリット</a></li>
+          <li><a href="/guest_house/dm/dm0314.html">蔡姐之家</a></li>
+          <li><a href="https://myhome.nifty.com/">賃貸物件検索</a></li>
+           <li><a href="taiwannet.html">台灣人緊急登錄</a></li></ul></div>
+    <div><h3>日本旅遊情報</h3> 
+      <ul><li><a href="/tour-info/basic-j.htm">日本基本情報</a></li>
+          <li><a href="/tour-info/access-j.htm">日本交通資訊link</a></li>
+          <li><a href="/tour-info/talk-j.htm">日本生活會話</a></li>
+          <li><a href="/tour-info/taxfree-j.htm">日本退稅注意事項</a></li>
+          <li><a href="/tour-info/discount-j.htm">外國人來日旅遊優惠</a></li>
+          <li><a href="/tour-info/experience-j.htm">日本旅遊經驗分享</a></li>
+          <li><a href="/tour-info/proinfor-j.htm">日本旅遊情報特集</a></li>
+          <li><a href="http://www.jreast.co.jp/tc/haneda/index.html">東日本鐵路旅客株式會社</a></li></ul></div>
+    <div><h3>WORKING HOLIDAY</h3> 
+      <ul><li><a href="recruit.htm" target="_blank">国際求人求職情報說明</a></li>
+          <li><a href="../test/bbs.php">求人求職情報サイト</a></li>
+          <li><a href="/information_meeting/Working_Holiday.html">打工度假說明</a></li></ul>
+          <br/>
+      <h3>日本生活指南</h3> <ul><li><a href="Dr02.html">在日台灣醫師診所情報</a></li></ul>
+    </div>
+  </div>
+</div>
+
+<div class="itntioncBlock block-tbP d-flex justify-content-evenly flex-wrap my-5">
+  <div class="itntionc1"><h3>交流会開催情報</h3>
+    <ul><li><a class="text-red" href="/event/20141220foto.html">2014忘年会・1000人会員お祝いparty写真</a></li>
+      <li><a href="/event/20131224p.html">クリスマスパーティー・プレゼント交換会写真</a></li>
+      <li><a href="event/121016p.html">秋言語交換会写真</a></li>
+      <li><a href="/event/20120527p.html">春言語交流会写真</a></li>
+      <li><a href="/event/20120422p.html">四月言語交換写真</a></li></ul></div>
+  <div class="align-self-center"><ul><li><a href="/event/20120408p.html">2012お花見写真</a></li>
+      <li><a href="/event/20120311p.html">寿司餃子party写真</a></li>
+      <li><a href="/20120201">台湾文化訪問団</a></li>
+      <li><a href="02.html">過去のイベンとト写真集</a></li></ul> </div>
+  <div><img class="img-fluid yoyopic" src="http://yoyotaiwan.boo.jp/event/121016p/PB102266.jpg"></div>
+</div>
+
+<div class="position-relative"><div class="bgc2 bgB3 shadow-lg"></div></div>
+
+<div class="taiblock block-tbP d-flex justify-content-around align-items-flex-start flex-wrap my-5">
+  <div class="shadow-lg"><h3>台湾教室</h3>
+    <ul><li><a href="/school.htm">友友中国語教室開催</a></li>
+        <li><a href="/ibenntochianshool01.htm">周杰倫中国語教室</a></li>
+        <li><a href="http://ameblo.jp/yoyotaiwan/">『台湾・中国語道場』</a></li>
+        <li><a href="Chinashool001.htm">無料中国語勉強</a></li></ul></div>
+  <div class="shadow-lg"><h3>台湾起業情集</h3>
+    <ul><li><a class="text-red" href="http://yoyotaiwan.boo.jp/tour-info/taiwanwh.html">台湾ワーホリデー</a></li>
+        <li><a href="http://yoyotaiwan.boo.jp/tour-info/0904tw.htm">台湾観光情報</a></li>
+        <li><a href="http://yoyotaiwan.boo.jp/fruit01.htm">台湾フルーツ、お土産</a></li>
+        <li><a href="http://mekumi.exblog.jp/">メグミちゃんの台湾</a></li></ul></div>
+  <div class="shadow-lg"><h3>台湾観光サービス</h3>
+    <ul><li><a href="http://www.go-taiwan.net/">台湾観光協会</a></li>
+           <li><a href="https://edition.cnn.com/travel/article/40-taiwan-food/index.html">CNN台湾小吃(英)</a>
+                 <a href="https://yontobt.pixnet.net/blog/post/192698419">中</a></li>    
+           <li><a href="https://www.travel.taipei/ja">臺北市政府觀光傳播局</a></li>
+           <li><a href="https://ethnolab.tw/ja/2019/11/dont-go-to-taiwan-for-jp/">台湾旅行blog</a></li></ul></div>  
+</div>
+
+<div class="block-tbP d-flex justify-content-evenly flex-wrap my-5"> 
+  <div class="commText"><h3>COMMNICATION</h3>
+    <ul><li><a href="bbs06.htm">BBS掲示板注意事項</a></li>
+        <li><a href="http://wenwen.bbs.fc2.com/">台湾．日本の友達作る</a></li></ul></div>
+  <div class="position-relative">
+    <img class="img-fluid box-shadowB radius-s" src="http://yoyotaiwan.boo.jp/20220929san/indexPic/taiwan.jpg"><img class="tai101" src="http://yoyotaiwan.boo.jp/20220929san/indexPic/Taipei101.png" width="120"></div>
+</div>
+
+<div class="marTB">
+  <ul class="d-flex justify-content-around align-items-center flex-wrap">
+    <li><a href="http://www.acd.com.tw/index.php" target="_blank"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/jstudy.png" class="w200px"></a></li>
+    <li><a href="https://matcha-jp.com/"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/Matcha.png" class="w200px"></a></li>
+    <!-- <li><a href="http://www.home-japan.com/" target="_blank"><img src="http://www.kenko-net.co.jp/img/banner2.gif" class="w200px">引っ越し</a></li> -->
+    <li><a href="http://www.jal.co.jp/" target="_blank"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/Jair.png" class="w200px"></a></li>
+    <li><a href="https://www.his-j.com/Default.aspx"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/His.png" class="w200px"></a></li>
+    <li><a href="https://www.flypeach.com/"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/peach.gif" class="w200px"></a></li>
+    <li><a href="http://www.china-airlines.co.jp/" target="_blank"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/vpn.jpg" class="w200px marB-sm"></a></li></ul>
+  <ul class="d-flex justify-content-around align-items-center flex-wrap">
+    <li><a href="https://www.koryu.or.jp/" target="_blank"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/jpea.jpg" class="w200px marB-sm"></a></li>
+    <li><a href="https://www.roc-taiwan.org/jp_ja/index.html" target="_blank"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/taiwanbunkacentre.png" class="w200px marB-sm"></a></li>
+    <li><a href="http://www.ocac.gov.tw/" target="_blank"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/overseas.png" class="w200px"></a></li>
+    <li><a href="https://www.jnto.go.jp/jpn/" target="_blank"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/jnto.jpg" class="w200px"></a></li>
+    <li><a href="http://www.go-taiwan.net/" target="_blank"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/taiwan_tour.jpg" class="w200px marB-sm"></a></li>
+    <li><a href="https://www.npm.gov.tw/?l=3" target="_blank"><img src="http://yoyotaiwan.boo.jp/20220929san/indexPic/NPM.png" class="w200px"></a></li></ul>
+</div>
+
+<footer class="bgc2 fs-16 text-center" >
+      <!-- <li><a href="http://yoyotaiwan.boo.jp/event/20141201.html">最新情報</a></li> -->
+      <!-- <li><a href="http://yoyotaiwan.boo.jp/b/">ビジネス国際交流會</a></li> -->
+    <p class="py-4">Copyright&nbsp;&copy;&nbsp;2022&nbsp;GREENMILE&nbsp;Corporation.&nbsp;<br/>All Rights Reserved.</p>
+</footer>
+
+<!--
+回到上頭的btn
+
+pic要包上去
+oldindex.html
+舊網站 _____>改網址
+路徑確認
+
+
+1. Css 命名規則  是功能  還是區塊?
+   if 區塊  看不出樣式  , 樣式 看不出位置
+   最外層if 都一樣  就是  區塊命名  相同樣式 （不會變  
+   背景  margin padding 會變的 就分開
+
+2. CSS 分部  共同,  區塊+樣式, 樣式一種 
+    共同 ul li
+    區塊 commText commBlock 
+    pic  compic   taipic  
+
+3. loading 速率
+    圖的大小.  bootstrap: CSS, js 的大小  toggle
+
+4. bootstrap ！importent.....==
+5.如未針對手機  作768 以下 就好  
+rwd 992 768 576X 420X 375 320
+-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
