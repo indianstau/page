@@ -1,0 +1,103 @@
+/*  20220929  make by san  */
+  html, body {font-family: "Yu Gothic", "Times New Roman";font-weight: bolder;margin: 0;height:  100%;}
+  .navbar{padding: 0px;}
+  ul{margin-bottom: 0px;padding: 0px !important;font-size: 22px;line-height: 2;}
+  .nav-link{font-size: 20px;} /*must under ul */
+  li{list-style: none;}
+  h3{font-weight: bold;border-bottom: 2px solid gray;}  
+  a{text-decoration: none;}
+
+  .fs-16{font-size: 16px;}
+
+  .text-red{color:red;}
+  .banner_text h3{color: DarkGreen;}
+  footer p{color: gray;}
+
+  .box-shadowB{box-shadow: 2px 2px;}
+  .banner_text h3, .taiblock h3{border-bottom: none;}
+  /* line22 h3 諡ｿ謗牙崋螳夊ｨｭ螳� */
+  
+  .mR8{margin-right: 8%;}
+  .block-tbP{padding: 40px 0 40px;}
+  .marTB{margin: 140px 0 40px;}
+
+  .bgpic{opacity: 0.6;width: 100%;}
+  .bgc2{background-color: linen;}
+  .bgB3{
+    width: 230px;
+    height:950px;
+    position: absolute;
+    z-index: -1;
+    right:0;
+  }
+
+  .banner_text{
+      position: absolute;
+      top: 37%;
+      left: 28%;
+      background-color: #f0f8ff50; 
+      text-align: center;
+      border-radius: 8px;
+      padding: 8px 16px;
+  }
+
+  .jinfo-Textblock{width: 38%;}
+  .jinfo-Textblock h3{width: 50%;}
+  .w200px{width: 200px;}
+  .maiko{
+    border-radius: 8px;
+    position: absolute;
+    top: -500px;
+  }
+
+  .transpic{width: 300px;height: 300px;}
+  .yoyopic{width: 400px;border-radius: 8px 0 0 8px;}
+  .taiblock div{
+    padding: 20px;
+    background: floralwhite;
+    border-radius: 8px;
+    width: 320px;
+    text-align: center;
+  }
+  .tai101{
+    position: absolute;
+    opacity: 0.75;
+    left: 0;
+    bottom: -0;
+    background-color: gainsboro;
+  }
+  .radius-s{border-radius:8px;}
+
+  @media screen and (min-width: 1400px){.navbar-expand-lg .navbar-nav .nav-link{padding-right: 1.5rem;padding-left: 1.5rem;}.banner_text{left: 23%;}.banner_text h3{font-size:42px;}}
+  @media screen and (max-width: 1400px){.navbar-expand-lg .navbar-nav .nav-link {padding-right: .8rem;padding-left: .8rem;}.banner_text{left: 27%;}.banner_text h3{font-size:28px;}.maiko{left: -100px;}}
+  @media screen and (max-width: 1200px){.navbar-expand-lg .navbar-nav .nav-link {padding-right: .7rem;padding-left: .7rem;}.banner_text{left: 23%;}.nav-link {font-size:14px;}}
+  @media screen and (max-width: 992px){.maiko{top:-350px;left: -150px;height:450px;}}
+
+  @media screen and (max-width: 768px){
+    .transText, .gjwb div, .taiblock div, .commText{margin-bottom: 30px;text-align: center;}
+    .jinfo-Textblock, .itntioncBlock{text-align: center;}
+
+    .menu{width: 55%;}
+    .bgpic{height: 450px;object-fit: cover;}
+    .banner_text{left: 27%;top: 45%;}
+    .banner_text h3{font-size: 18px;}
+
+    .transBlock{justify-content: center !important;margin-right: 0;}
+    .transpic{width: 200px;height: 200px;margin: 0 !important;}
+
+    .maiko{width: 200px;height: 300px;position: revert; margin-bottom: 30px;}
+    .jinfo-Textblock, .transText{width: 59%;}
+    .jinfo-Textblock h3{width: 100%;}
+
+    .itntionc1{width: 65%;}
+    .yoyopic{margin-top: 30px;border-radius: 0;}
+    .taiblock div{width: 260px;}
+
+    .bgB3{width: 130px; height: 700px;}
+    .radius-s{border-radius: 0;}
+    .marTB{margin-top: 60px;}
+    .marB-sm{margin-bottom: 20px;}
+  }
+
+  @media screen and (max-width: 576px){.jinfo-Textblock div{justify-content: center !important ;}.bgpic{height: 350px}.banner_text {left: 18%;}} 
+  @media screen and (max-width: 376px){.banner_text { left: 1.5px;}.bgB3{height:950px;}}
